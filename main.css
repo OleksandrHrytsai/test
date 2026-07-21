@@ -3,3 +3,107 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --background: rgb(21, 21, 21);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background);
+    color: #f8fbf8;
+    font-family: "Libre Franklin", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+footer {
+    visibility: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-box {
+    width: 340px;
+    height: auto;
+    padding: 30px 30px;
+    border-radius: 14px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.77rem;
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.name-adress {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.name-adress h1 {
+    font-size: 22px;
+}
+
+.name-adress p {
+    color: rgb(126, 192, 26);
+}
+
+.description {
+    color: #c1c1c1;
+}
+
+.photo {
+    background: url(/assets/images/avatar-jessica.jpeg) no-repeat center center;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+    border-radius: 32px;
+}
+
+.inner-box ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.inner-box ul li {
+    padding: 12px 0;
+    background-color: #3f3f3f;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: box-shadow .25s ease-in-out, background-color 0.17s ease-in-out;
+}
+
+.inner-box ul li:hover {
+    box-shadow: 4px 4px 10px rgb(20, 20, 20),
+    -4px -4px 10px rgb(30, 30, 30) ;
+
+}
+
+.inner-box ul li:active {
+    background-color: rgb(126, 192, 26);
+}
