@@ -21,7 +21,7 @@ body {
 }
 
 footer {
-    visibility: hidden;
+    display: none;
 }
 
 li {
@@ -73,7 +73,7 @@ a {
 }
 
 .photo {
-    background: url(/assets/images/avatar-jessica.jpeg) no-repeat center center;
+    background: url(./assets/images/avatar-jessica.jpeg) no-repeat center center;
     background-size: contain;
     height: 70px;
     width: 70px;
