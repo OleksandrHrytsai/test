@@ -28,11 +28,11 @@ li {
     list-style: none;
 }
 
-a {
+li a {
+    display: block;
+    padding: 12px 0;
     text-decoration: none;
     color: white;
-    height: 100%;
-    width: 100%;
 }
 
 .main-box {
@@ -92,7 +92,6 @@ a {
 }
 
 .inner-box ul li {
-    padding: 12px 0;
     background-color: #3f3f3f;
     border-radius: 8px;
     width: 100%;
